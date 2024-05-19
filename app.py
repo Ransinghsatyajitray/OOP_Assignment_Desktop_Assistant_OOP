@@ -1,8 +1,8 @@
 import streamlit as st 
 from src.helper import DesktopAssistant
 import os
+from src.secret import GOOGLE_API_KEY
 
-GOOGLE_API_KEY = "AIzaSyCroY96R7FrCb9_gqT6mBadRJyGKsvDFrA"
 os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
 
 DesktopAssistant = DesktopAssistant()

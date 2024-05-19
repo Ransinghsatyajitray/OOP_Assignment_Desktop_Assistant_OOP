@@ -49,7 +49,9 @@ git push origin main
 ```
 
 # GENAI API key
-# AIzaSyCroY96R7FrCb9_gqT6mBadRJyGKsvDFrA
+
+# secret in src folder add to .gitignore file
+src/secret.py
 
 
 
